@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Oction Coding Challenge</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="no_items_found">no_items_found</string>
+    <string name="okay">OK</string>
+    <string name="loading">Loading</string>
+    <string name="oction">OCTION</string>
+</resources>
