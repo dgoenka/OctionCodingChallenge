@@ -92,7 +92,6 @@ public class OctionListPresenter {
     }
 
     private void fetchRepos(int pageNumber) {
-        /// TODO Can be changed to use cache in the Observable
         Log.e(TAG, "in fetchRepos, fetching page number: " + pageNumber + " numberOfPages is " + numberOfPages);
         octionApi.getUserRepos(pageNumber).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(octionsObserverable);
     }
